@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83500AF3266194AA0076F1CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83500AF2266194AA0076F1CE /* AppDelegate.swift */; };
+		83500AF5266194AA0076F1CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83500AF4266194AA0076F1CE /* SceneDelegate.swift */; };
+		83500AF7266194AA0076F1CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83500AF6266194AA0076F1CE /* ViewController.swift */; };
+		83500AFA266194AA0076F1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83500AF8266194AA0076F1CE /* Main.storyboard */; };
+		83500AFC266194AF0076F1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83500AFB266194AF0076F1CE /* Assets.xcassets */; };
+		83500AFF266194AF0076F1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83500AFD266194AF0076F1CE /* LaunchScreen.storyboard */; };
+		83500B0A266194AF0076F1CE /* JiveAndSeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83500B09266194AF0076F1CE /* JiveAndSeekTests.swift */; };
+		83500B15266194AF0076F1CE /* JiveAndSeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83500B14266194AF0076F1CE /* JiveAndSeekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83500B06266194AF0076F1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83500AE7266194AA0076F1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83500AEE266194AA0076F1CE;
+			remoteInfo = JiveAndSeek;
+		};
+		83500B11266194AF0076F1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83500AE7266194AA0076F1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83500AEE266194AA0076F1CE;
+			remoteInfo = JiveAndSeek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83500AEF266194AA0076F1CE /* JiveAndSeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiveAndSeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83500AF2266194AA0076F1CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83500AF4266194AA0076F1CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83500AF6266194AA0076F1CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83500AF9266194AA0076F1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83500AFB266194AF0076F1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83500AFE266194AF0076F1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83500B00266194AF0076F1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83500B05266194AF0076F1CE /* JiveAndSeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiveAndSeekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83500B09266194AF0076F1CE /* JiveAndSeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiveAndSeekTests.swift; sourceTree = "<group>"; };
+		83500B0B266194AF0076F1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83500B10266194AF0076F1CE /* JiveAndSeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiveAndSeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83500B14266194AF0076F1CE /* JiveAndSeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiveAndSeekUITests.swift; sourceTree = "<group>"; };
+		83500B16266194AF0076F1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83500AEC266194AA0076F1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83500B02266194AF0076F1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83500B0D266194AF0076F1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83500AE6266194AA0076F1CE = {
+			isa = PBXGroup;
+			children = (
+				83500AF1266194AA0076F1CE /* JiveAndSeek */,
+				83500B08266194AF0076F1CE /* JiveAndSeekTests */,
+				83500B13266194AF0076F1CE /* JiveAndSeekUITests */,
+				83500AF0266194AA0076F1CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83500AF0266194AA0076F1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83500AEF266194AA0076F1CE /* JiveAndSeek.app */,
+				83500B05266194AF0076F1CE /* JiveAndSeekTests.xctest */,
+				83500B10266194AF0076F1CE /* JiveAndSeekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83500AF1266194AA0076F1CE /* JiveAndSeek */ = {
+			isa = PBXGroup;
+			children = (
+				83500AF2266194AA0076F1CE /* AppDelegate.swift */,
+				83500AF4266194AA0076F1CE /* SceneDelegate.swift */,
+				83500AF6266194AA0076F1CE /* ViewController.swift */,
+				83500AF8266194AA0076F1CE /* Main.storyboard */,
+				83500AFB266194AF0076F1CE /* Assets.xcassets */,
+				83500AFD266194AF0076F1CE /* LaunchScreen.storyboard */,
+				83500B00266194AF0076F1CE /* Info.plist */,
+			);
+			path = JiveAndSeek;
+			sourceTree = "<group>";
+		};
+		83500B08266194AF0076F1CE /* JiveAndSeekTests */ = {
+			isa = PBXGroup;
+			children = (
+				83500B09266194AF0076F1CE /* JiveAndSeekTests.swift */,
+				83500B0B266194AF0076F1CE /* Info.plist */,
+			);
+			path = JiveAndSeekTests;
+			sourceTree = "<group>";
+		};
+		83500B13266194AF0076F1CE /* JiveAndSeekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83500B14266194AF0076F1CE /* JiveAndSeekUITests.swift */,
+				83500B16266194AF0076F1CE /* Info.plist */,
+			);
+			path = JiveAndSeekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83500AEE266194AA0076F1CE /* JiveAndSeek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83500B19266194AF0076F1CE /* Build configuration list for PBXNativeTarget "JiveAndSeek" */;
+			buildPhases = (
+				83500AEB266194AA0076F1CE /* Sources */,
+				83500AEC266194AA0076F1CE /* Frameworks */,
+				83500AED266194AA0076F1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiveAndSeek;
+			productName = JiveAndSeek;
+			productReference = 83500AEF266194AA0076F1CE /* JiveAndSeek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83500B04266194AF0076F1CE /* JiveAndSeekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83500B1C266194AF0076F1CE /* Build configuration list for PBXNativeTarget "JiveAndSeekTests" */;
+			buildPhases = (
+				83500B01266194AF0076F1CE /* Sources */,
+				83500B02266194AF0076F1CE /* Frameworks */,
+				83500B03266194AF0076F1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83500B07266194AF0076F1CE /* PBXTargetDependency */,
+			);
+			name = JiveAndSeekTests;
+			productName = JiveAndSeekTests;
+			productReference = 83500B05266194AF0076F1CE /* JiveAndSeekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83500B0F266194AF0076F1CE /* JiveAndSeekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83500B1F266194AF0076F1CE /* Build configuration list for PBXNativeTarget "JiveAndSeekUITests" */;
+			buildPhases = (
+				83500B0C266194AF0076F1CE /* Sources */,
+				83500B0D266194AF0076F1CE /* Frameworks */,
+				83500B0E266194AF0076F1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83500B12266194AF0076F1CE /* PBXTargetDependency */,
+			);
+			name = JiveAndSeekUITests;
+			productName = JiveAndSeekUITests;
+			productReference = 83500B10266194AF0076F1CE /* JiveAndSeekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83500AE7266194AA0076F1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					83500AEE266194AA0076F1CE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					83500B04266194AF0076F1CE = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 83500AEE266194AA0076F1CE;
+					};
+					83500B0F266194AF0076F1CE = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 83500AEE266194AA0076F1CE;
+					};
+				};
+			};
+			buildConfigurationList = 83500AEA266194AA0076F1CE /* Build configuration list for PBXProject "JiveAndSeek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83500AE6266194AA0076F1CE;
+			productRefGroup = 83500AF0266194AA0076F1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83500AEE266194AA0076F1CE /* JiveAndSeek */,
+				83500B04266194AF0076F1CE /* JiveAndSeekTests */,
+				83500B0F266194AF0076F1CE /* JiveAndSeekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83500AED266194AA0076F1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83500AFF266194AF0076F1CE /* LaunchScreen.storyboard in Resources */,
+				83500AFC266194AF0076F1CE /* Assets.xcassets in Resources */,
+				83500AFA266194AA0076F1CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83500B03266194AF0076F1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83500B0E266194AF0076F1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83500AEB266194AA0076F1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83500AF7266194AA0076F1CE /* ViewController.swift in Sources */,
+				83500AF3266194AA0076F1CE /* AppDelegate.swift in Sources */,
+				83500AF5266194AA0076F1CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83500B01266194AF0076F1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83500B0A266194AF0076F1CE /* JiveAndSeekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83500B0C266194AF0076F1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83500B15266194AF0076F1CE /* JiveAndSeekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83500B07266194AF0076F1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83500AEE266194AA0076F1CE /* JiveAndSeek */;
+			targetProxy = 83500B06266194AF0076F1CE /* PBXContainerItemProxy */;
+		};
+		83500B12266194AF0076F1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83500AEE266194AA0076F1CE /* JiveAndSeek */;
+			targetProxy = 83500B11266194AF0076F1CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83500AF8266194AA0076F1CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83500AF9266194AA0076F1CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83500AFD266194AF0076F1CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83500AFE266194AF0076F1CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83500B17266194AF0076F1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83500B18266194AF0076F1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83500B1A266194AF0076F1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiveAndSeek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.christophe.JiveAndSeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83500B1B266194AF0076F1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiveAndSeek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.christophe.JiveAndSeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83500B1D266194AF0076F1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiveAndSeekTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.christophe.JiveAndSeekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiveAndSeek.app/JiveAndSeek";
+			};
+			name = Debug;
+		};
+		83500B1E266194AF0076F1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiveAndSeekTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.christophe.JiveAndSeekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiveAndSeek.app/JiveAndSeek";
+			};
+			name = Release;
+		};
+		83500B20266194AF0076F1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiveAndSeekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.christophe.JiveAndSeekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiveAndSeek;
+			};
+			name = Debug;
+		};
+		83500B21266194AF0076F1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JiveAndSeekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.christophe.JiveAndSeekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiveAndSeek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83500AEA266194AA0076F1CE /* Build configuration list for PBXProject "JiveAndSeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83500B17266194AF0076F1CE /* Debug */,
+				83500B18266194AF0076F1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83500B19266194AF0076F1CE /* Build configuration list for PBXNativeTarget "JiveAndSeek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83500B1A266194AF0076F1CE /* Debug */,
+				83500B1B266194AF0076F1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83500B1C266194AF0076F1CE /* Build configuration list for PBXNativeTarget "JiveAndSeekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83500B1D266194AF0076F1CE /* Debug */,
+				83500B1E266194AF0076F1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83500B1F266194AF0076F1CE /* Build configuration list for PBXNativeTarget "JiveAndSeekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83500B20266194AF0076F1CE /* Debug */,
+				83500B21266194AF0076F1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83500AE7266194AA0076F1CE /* Project object */;
+}
