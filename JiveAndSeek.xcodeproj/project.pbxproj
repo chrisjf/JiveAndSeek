@@ -49,6 +49,8 @@
 		83500B10266194AF0076F1CE /* JiveAndSeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiveAndSeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83500B14266194AF0076F1CE /* JiveAndSeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiveAndSeekUITests.swift; sourceTree = "<group>"; };
 		83500B16266194AF0076F1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83500B232661974C0076F1CE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		83500B242661974C0076F1CE /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				83500B08266194AF0076F1CE /* JiveAndSeekTests */,
 				83500B13266194AF0076F1CE /* JiveAndSeekUITests */,
 				83500AF0266194AA0076F1CE /* Products */,
+				83500B25266197570076F1CE /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +131,15 @@
 			path = JiveAndSeekUITests;
 			sourceTree = "<group>";
 		};
+		83500B25266197570076F1CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83500B232661974C0076F1CE /* .gitignore */,
+				83500B242661974C0076F1CE /* .swiftlint.yml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +150,7 @@
 				83500AEB266194AA0076F1CE /* Sources */,
 				83500AEC266194AA0076F1CE /* Frameworks */,
 				83500AED266194AA0076F1CE /* Resources */,
+				83500B22266195150076F1CE /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -155,6 +168,7 @@
 				83500B01266194AF0076F1CE /* Sources */,
 				83500B02266194AF0076F1CE /* Frameworks */,
 				83500B03266194AF0076F1CE /* Resources */,
+				83500B26266197830076F1CE /* Run SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -252,6 +266,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83500B22266195150076F1CE /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+		83500B26266197830076F1CE /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83500AEB266194AA0076F1CE /* Sources */ = {
@@ -445,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.christophe.JiveAndSeek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.christophe.JiveAndSeek;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

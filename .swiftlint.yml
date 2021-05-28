@@ -1,0 +1,14 @@
+whitelist_rules:
+  - colon
+  - comma
+  - closing_brace
+  - opening_brace
+  - trailing_newline
+  - trailing_whitespace
+  - vertical_whitespace
+
+vertical_whitespace:
+  max_empty_lines: 1
+
+excluded:
+  - Frameworks
